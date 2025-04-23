@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-const API_URL = "https://student-json-api.onrender.com/students";
+const API_URL = "http://localhost:5000/students";
 
 const App = () => {
     const [students, setStudents] = useState([]);
